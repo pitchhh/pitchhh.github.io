@@ -15,7 +15,7 @@
       <guid>https://pitchhh.github.io/posts/2019-01-19-vue-navigation-guards/</guid>
       <description>Navigation guards are provided by vue-router. Three ways to hook:
  globally per-route in-component  NOTE:
- Params or query changes won&amp;rsquo;t trigger enter/leave navigation guards. You can either watch the $route object to react to those changes, or use the beforeRouteUpdate in-component guard. Make sure to always call the next function, otherwise the hook will never be resolved.  Global 🔗const router = new VueRouter({ ... })  // Before Guards router.</description>
+ Params or query changes won&amp;rsquo;t trigger enter/leave navigation guards. You can either watch the $route object to react to those changes, or use the beforeRouteUpdate in-component guard. Make sure to always call the next function, otherwise the hook will never be resolved.  Global const router = new VueRouter({ ... })  // Before Guards router.</description>
     </item>
     
   </channel>

@@ -28,7 +28,7 @@ class Bind {  protected $name = &amp;#39;no name&amp;#39;;  public $change;   pu
       
       <guid>https://pitchhh.github.io/posts/2016-11-05-php-composer-autoload/</guid>
       <description>composer的autoload可以轻松的实现php的自动加载。在composer.json中添加autoload字段即可。当前支持 PSR-0 PSR-4 classmap解析和files包含。官方推荐PSR-4标准（添加类时不需要重新生成加载器）。
-PSR-4 🔗Under the psr-4 key you define a mapping from namespaces to paths, relative to the package root. When autoloading a class like Foo\\Bar\\Baz a namespace prefix Foo\\ pointing to a directory src/ means that the autoloader will look for a file named src/Bar/Baz.php and include it if present. Note that as opposed to the older PSR-0 style, the prefix (Foo\\) is not present in the file path.</description>
+PSR-4 Under the psr-4 key you define a mapping from namespaces to paths, relative to the package root. When autoloading a class like Foo\\Bar\\Baz a namespace prefix Foo\\ pointing to a directory src/ means that the autoloader will look for a file named src/Bar/Baz.php and include it if present. Note that as opposed to the older PSR-0 style, the prefix (Foo\\) is not present in the file path.</description>
     </item>
     
   </channel>
